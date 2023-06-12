@@ -1,18 +1,27 @@
 {
   "author": {
-    "name": "Brian Holt",
-    "company": "Stripe"
+    "name": "Amir Vahed",
+    "company": "Daneshkar"
   },
-  "title": "Next.js Course Starter Kit",
-  "subtitle": "for Frontend Masters",
-  "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v6/",
+  "title": "Introduction to Next.js",
+  "subtitle": "Next.js for Front-End Development",
+  "frontendMastersLink": "",
   "social": {
-    "linkedin": "btholt",
-    "github": "btholt",
-    "twitter": "holtbt"
+    "linkedin": "amirmvahed",
+    "github": "",
+    "twitter": ""
   },
-  "description": "A starter kit for making really amazing courses, optimized for Frontend Masters",
-  "keywords": ["your", "Google", "keywords", "here"],
-  "productionBaseUrl": "/next-course-starter",
+  "description": "Discover Next.js, the powerful React framework, in this introductory course. Learn the basics of Next.js development, including setting up the environment, server-side rendering, and static site generation. Gain practical experience building basic applications and exploring styling options. Elevate your front-end development skills with Next.js and unlock the potential of creating dynamic web experiences.",
+  "keywords": [
+    "NextJS",
+    "Front End",
+    "React",
+    "React Framework",
+    "SSR",
+    "SSG",
+    "server-side rendering",
+    "static site generation"
+  ],
+  "productionBaseUrl": "/introduction-to-next-js",
   "csvPath": "./out/lessons.csv"
 }

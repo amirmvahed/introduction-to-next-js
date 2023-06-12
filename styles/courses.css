@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /* mini css reset */
 html {
@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Inter", serif;
   background: linear-gradient(90deg, var(--bg-main) 15px, transparent 1%) center,
     linear-gradient(var(--bg-main) 15px, transparent 1%) center, var(--bg-dots);
   background-size: 16px 16px;
@@ -43,7 +43,6 @@ a {
 }
 
 .navbar {
-  border-bottom: 1px solid #ccc;
   position: fixed;
   width: 100%;
   top: 0;
@@ -217,7 +216,7 @@ header .cta-btn {
   max-width: 900px;
   margin: 0 auto 45px auto;
   padding: 10px 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--secondary);
   background-color: var(--bg-lesson);
   border-radius: 5px;
   margin-top: 40px;
@@ -330,14 +329,18 @@ header .cta-btn {
 blockquote {
   padding: 15px;
   background-color: var(--emphasized-bg);
-  border: 2px solid var(--emphasized-border);
-  border-radius: 5px;
+  border: 1px solid var(--emphasized-border);
+  border-radius: 8px;
   width: 100%;
   margin: 10px 0;
 }
 
 blockquote > *:last-child {
   margin-bottom: 0;
+}
+
+ul {
+  margin-left: 40px;
 }
 
 .lesson-content img {
@@ -386,7 +389,7 @@ ol.sections-name > li {
   flex-wrap: wrap;
   margin-bottom: 35px;
   width: 100%;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0,0,0,.12);
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -489,26 +492,27 @@ ol.sections-name .lesson-details {
 }
 
 .lesson-links a {
-  border-radius: 10px;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 1rem;
   background: var(--nav-buttons);
   color: var(--nav-buttons-text);
-  padding: 15px 20px;
+  height: 2.5rem;
+  padding: 0 2rem;
   display: inline-block;
   display: flex;
+  box-shadow: 0 4px 14px 0 rgba(0,118,255,0.39);
+  transition: background.2s ease,color.2s ease,box-shadow.2s ease;
+  line-height: 2.5rem;
   justify-content: center;
+  align-content: center;
   align-items: center;
 }
 
-.lesson-links a.prev {
-  padding-left: 10px;
-}
-
-.lesson-links a.next {
-  padding-right: 10px;
-}
 
 .lesson-links a:hover {
-  background: #152837;
+  background: rgba(0,118,255,0.9);
+  box-shadow: 0 6px 20px rgba(0,118,255,0.23);
   text-decoration: none;
 }
 

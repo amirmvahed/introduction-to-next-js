@@ -47,7 +47,7 @@ Note this site doesn't use `next/image` because that requires the server compone
 
 Your image. If you call it this, you won't have to change any code. If you need to change it, it's in `pages/index.js`.
 
-### public/images/social-share-cover.jpg
+### public/images/social-share-cover.png
 
 The image that will be used if someone shares your website to Twitter/Facebook/etc. If you call it this, you won't have to change any code. If you do need to change it, it's in `pages/index.js`
 

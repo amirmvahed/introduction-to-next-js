@@ -34,7 +34,7 @@ export default function LessonSlug({ post }) {
         <meta name="og:title" content={title}></meta>
         <meta
           name="og:image"
-          content={`${process.env.BASE_URL}/images/social-share-cover.jpg`}
+          content={`${process.env.BASE_URL}/images/social-share-cover.png`}
         ></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
@@ -47,7 +47,7 @@ export default function LessonSlug({ post }) {
           <div className="lesson-links">
             {post.prevSlug ? (
               <a href={post.prevSlug} className="prev">
-                ← Previous
+                ← Prev
               </a>
             ) : null}
             {post.nextSlug ? (

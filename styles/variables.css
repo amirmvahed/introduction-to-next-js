@@ -1,15 +1,15 @@
 :root {
-  --primary: #dfa067;
-  --secondary: #93aca7;
-  --highlight: #224159;
+  --primary: white;
+  --secondary: #eaeaea;
+  --highlight: #0070f3;
 
-  --text-header: var(--primary);
-  --text-main-headers: var(--highlight);
-  --text-links: #007bff;
-  --text-footer: #333;
+  --text-header: #000;
+  --text-main-headers: #000;
+  --text-links: var(--highlight);
+  --text-footer: var(--text-header);
 
-  --bg-main: white;
-  --bg-dots: var(--highlight);
+  --bg-main: #white;
+  --bg-dots: #c7c7c7;
   --bg-lesson: white;
 
   --nav-buttons: var(--highlight);
@@ -17,9 +17,9 @@
 
   --corner-active: var(--highlight);
   --corner-inactive: #f4f4f4;
-  --icons: var(--highlight);
-  --footer-icons: var(--highlight);
+  --icons: var(--text-header);
+  --footer-icons: var(--text-header);
 
-  --emphasized-bg: #dce8ff;
-  --emphasized-border: #aab6d2;
+  --emphasized-bg: #fafafa;
+  --emphasized-border: #eaeaea;
 }

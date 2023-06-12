@@ -18,7 +18,7 @@ export default function Lessons({ sections }) {
         <meta name="og:title" content={courseInfo.title}></meta>
         <meta
           name="og:image"
-          content={`${process.env.BASE_URL}/images/social-share-cover.jpg`}
+          content={`${process.env.BASE_URL}/images/social-share-cover.png`}
         ></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
