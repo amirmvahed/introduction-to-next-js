@@ -21,6 +21,4 @@ There are some features that make Next JS great for developing:
 + Fast & Optimize
 + Full stack capabilities
 
->🔋Dive deeper into <a href="https://nextjs.org/learn/foundations/how-nextjs-works" target="_blank">how Next.js actually works.</a>
-
 
