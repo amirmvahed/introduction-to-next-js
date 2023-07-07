@@ -2,9 +2,10 @@
   --primary: white;
   --secondary: #eaeaea;
   --highlight: #0070f3;
+  --text: #000;
 
-  --text-header: #000;
-  --text-main-headers: #000;
+  --text-header: var(--text);
+  --text-main-headers: var(--text);
   --text-links: var(--highlight);
   --text-footer: var(--text-header);
 
@@ -22,4 +23,5 @@
 
   --emphasized-bg: #fafafa;
   --emphasized-border: #eaeaea;
+  --emphasized-text: #eb367f;
 }

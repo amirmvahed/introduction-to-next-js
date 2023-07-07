@@ -5,6 +5,18 @@ html {
   font-size: 16px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: #79ffe1;
+}
+
+::selection {
+  background: #79ffe1;
+}
+
+.language-js {
+  background: var(--corner-inactive);
+}
+
 body,
 h1,
 h2,
@@ -40,6 +52,10 @@ body {
 a {
   color: var(--text-links);
   text-decoration: none;
+}
+
+code {
+  color: var(--emphasized-text);
 }
 
 .navbar {
