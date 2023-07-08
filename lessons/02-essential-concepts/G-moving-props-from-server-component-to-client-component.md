@@ -6,15 +6,15 @@
 
 Props passed from the Server to Client Components need to
 be <a href="https://developer.mozilla.org/en-US/docs/Glossary/Serialization" target="_blank">"serializable"</a>. This
-means that values such as functions,
-Dates, etc, cannot be passed directly to Client Components.
+means that values such as `functions,
+Dates,` etc, cannot be passed directly to Client Components.
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-when you are moving data from the server component to the client component, you have to pay attention to your
-performance.
+when you are moving data from the server component to the client component, `you have to pay attention to your
+performance.`
 
 &nbsp;
 &nbsp;
@@ -39,7 +39,7 @@ import Profile from './Profile'
 
 // Layout is a Server Component by default
 export default async function Layout({ children }) {
-  const res = await fetc('/user')
+  const res = await fetch('/user')
   const firstName = await res.json().firsName // If this is 1mb, the data sent to the client will also be 1mb.
 
   return (

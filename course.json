@@ -3,15 +3,15 @@
     "name": "Amir Vahed",
     "company": "Daneshkar"
   },
-  "title": "Introduction to Next.js",
-  "subtitle": "Next.js for Front-End Development",
+  "title": "Introduction to NextJS 13.4",
+  "subtitle": "NextJS for Front-End Development",
   "frontendMastersLink": "",
   "social": {
     "linkedin": "amirmvahed",
     "github": "",
     "twitter": ""
   },
-  "description": "Discover Next.js, the powerful React framework, in this introductory course. Learn the basics of Next.js development, including setting up the environment, server-side rendering, and static site generation. Gain practical experience building basic applications and exploring styling options. Elevate your front-end development skills with Next.js and unlock the potential of creating dynamic web experiences.",
+  "description": "Discover NextJS, the powerful React framework, in this introductory course. Learn the basics of Next.js development, including setting up the environment, server-side rendering, and static site generation. Gain practical experience building basic applications and exploring styling options. Elevate your front-end development skills with Next.js and unlock the potential of creating dynamic web experiences.",
   "keywords": [
     "NextJS",
     "Front End",

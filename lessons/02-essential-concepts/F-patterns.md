@@ -1,13 +1,10 @@
-## patterns
+# Patterns
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-**Moving Client Components to the Leaves:**
-&nbsp;
-&nbsp;
-&nbsp;
+## Moving Client Components to the Leaves:
 
 To improve the performance of your application, we recommend moving Client Components to the leaves of your component
 tree where possible.
@@ -25,7 +22,7 @@ import SearchBar from './searchbar'
 import Logo from './logo'
 
 // Layout is a Server Component by default
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }) {
   return (
     <>
       <nav>
@@ -44,10 +41,7 @@ Server and Client Components can be **combined** in the same component tree.
 &nbsp;
 &nbsp;
 
-**Unsupported Pattern: Importing Server Components into Client Components:**
-&nbsp;
-&nbsp;
-&nbsp;
+## Unsupported Pattern: Importing Server Components into Client Components:
 
 The following pattern is not supported. You cannot import a Server Component into a Client Component:
 
@@ -58,11 +52,7 @@ The following pattern is not supported. You cannot import a Server Component int
 // You cannot import a Server Component into a Client Component.
 import ExampleServerComponent from './example-server-component'
 
-export default function ExampleClientComponent({
-                                                 children,
-                                               }: {
-  children: React.ReactNode
-}) {
+export default function ExampleClientComponent({ children }) {
   const [count, setCount] = useState(0)
 
   return (
@@ -75,10 +65,7 @@ export default function ExampleClientComponent({
 }
 ```
 
-**Recommended Pattern: Passing Server Components to Client Components as Props:**
-&nbsp;
-&nbsp;
-&nbsp;
+## Recommended Pattern: Passing Server Components to Client Components as Props:
 
 Instead, when designing Client Components you can use React props to mark "slots" for Server Components.
 
@@ -94,11 +81,7 @@ component.
 
 import { useState } from 'react'
 
-export default function ExampleClientComponent({
-                                                 children,
-                                               }: {
-  children: React.ReactNode
-}) {
+export default function ExampleClientComponent({ children }) {
   const [count, setCount] = useState(0)
 
   return (

@@ -2,7 +2,7 @@
 
 System Requirements:
 
-+ Node.js **16.8** or later.
++ Node.js `16.8` or later.
 + macOS, Windows (including WSL), and Linux are supported.
 
 &nbsp;

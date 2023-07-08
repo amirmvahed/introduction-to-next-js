@@ -13,12 +13,10 @@ optimizations for your application.
 You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements
 such as routing, data fetching, integrations - all while improving the developer and end-user experience.
 
->💡Do you know about **“Turbopack”** ? if you don`t, search about it.
-
-There are some features that make Next JS great for developing:
-+ SEO friendly
-+ File based routing
-+ Fast & Optimize
-+ Full stack capabilities
+>💡 There are some features that make Next JS great for developing:
+> + SEO friendly
+> + File based routing
+> + Fast & Optimize
+> + Full stack capabilities
 
 
