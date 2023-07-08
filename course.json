@@ -22,6 +22,5 @@
     "server-side rendering",
     "static site generation"
   ],
-  "productionBaseUrl": "/introduction-to-next-js",
-  "csvPath": "./out/lessons.csv"
+  "productionBaseUrl": "/introduction-to-next-js"
 }
