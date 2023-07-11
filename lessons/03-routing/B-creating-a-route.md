@@ -38,4 +38,13 @@ corresponds to `/about`.
 
 ## Handling non-matching routes
 
-What happens if you enter a URL that cannot map to a file within the app folder? For example, <a href="http://localhost:3000/dashboard" target="_blank">localhost:3000/dashboard</a>. Next.js will automatically respond with a `404 Not Found` response. You don't have to explicitly handle non-matching routes, as Next.js takes care of this for you.
+What happens if you enter a URL that cannot map to a file within the app folder? For
+example, <a href="http://localhost:3000/dashboard" target="_blank">localhost:3000/dashboard</a>. Next.js will
+automatically respond with a `404 Not Found` response. You don't have to explicitly handle non-matching routes, as
+Next.js takes care of this for you.
+
+> 💡 You can create your custom not-found page and give more information
+> with <a href="https://nextjs.org/docs/app/api-reference/file-conventions/not-found" target="_blank">this link</a>
+
+
+> 💻 <a href="https://github.com/amirmvahed/next-dk-code/tree/01-creating-a-route/app" target="_blank">Click here to watch state of project.</a>

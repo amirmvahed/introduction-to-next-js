@@ -85,7 +85,7 @@ To create nested dynamic routes, follow these steps:
   `userId` and the `todoId`.
 
 ```js
-export default function ProductDetail({ params }) {
+export default function TodoDetail({ params }) {
   return (
     <h1>
       todo {params.todoId} for user {params.userId}
@@ -104,4 +104,4 @@ Now, if we navigate to <a href="http://localhost:3000/users/1/todos/1" target="_
 
 The key takeaway from this section is that it is possible to create nested dynamic routes by having dynamic segments in the folder names.
 
-
+> 💻 <a href="https://github.com/amirmvahed/next-dk-code/tree/03-dynamic-routes/app" target="_blank">Click here to watch state of project.</a>

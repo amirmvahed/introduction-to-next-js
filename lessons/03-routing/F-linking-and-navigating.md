@@ -31,7 +31,26 @@ export default function Home() {
 ```js
 import Link from 'next/link'
 
-export default function Users({ users }) {
+const users = [
+  {
+    id: '1',
+    name: 'amir'
+  },
+  {
+    id: '2',
+    name: 'ali'
+  },
+  {
+    id: '3',
+    name: 'maryam'
+  },
+  {
+    id: '4',
+    name: 'zahra'
+  },
+]
+
+export default function Users() {
   return (
     <ul>
       {users.map((user) => (
@@ -47,7 +66,7 @@ export default function Users({ users }) {
 ## `useRouter()` Hook
 
 The useRouter hook allows you to programmatically change routes inside `Client Components`.
-To use `useRouter`, import it from n`ext/navigation`, and call the hook inside your Client Component:
+To use `useRouter`, import it from `next/navigation`, and call the hook inside your Client Component:
 
 ```js
 'use client'
@@ -68,4 +87,5 @@ export default function Home() {
 > 💡 for more information about `useRouter` component
 > see <a href="https://nextjs.org/docs/app/api-reference/functions/use-router" target="_blank">this link.</a>
 
+> 💻 <a href="https://github.com/amirmvahed/next-dk-code/tree/05-linking-and-navigating/app" target="_blank">Click here to watch state of project.</a>
 

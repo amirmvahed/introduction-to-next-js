@@ -45,3 +45,4 @@ export default function SecondBlog() {
 
 By creating a nested folder structure, Next.js automatically routes the files accordingly. This simplifies the process of creating nested routes and enhances the organization and structure of your application.
 
+> 💻 <a href="https://github.com/amirmvahed/next-dk-code/tree/02-nested-routes/app" target="_blank">Click here to watch state of project.</a>
